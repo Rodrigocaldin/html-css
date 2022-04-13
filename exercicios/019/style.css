@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2? family= Emilys+Candy & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Lobster+Two:ital,wght@0,400;0,700;1,400;1,700 & display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,900;1,100;1,200;1,300;1,400;1,700; 1.900 & display=trocar');
+
+
+body {
+     background-image: linear-gradient(to bottom, #F077F2, #970FF2, #611DF2, #341C8C);
+     Font: italic 300 1em 'work sans' arial, 'sans serif';
+     color: black;
+     text-align: justify;
+     text-indent: 20px; 
+     
+}
+main {
+    background-color: #f1c4f3;
+    width: 600px;
+    padding: 5px;
+    border-radius: 15px;
+    margin:auto;
+    box-shadow: 3px 3px 5px rgba(79, 39, 79, 0.813);
+}
+
+h1#principal {
+    font: normal 2em 'emilys candy', arial, 'sans serif';
+    text-align: center;
+    color: #611DF2;
+    text-shadow: 1px 1px 1px #8556ebc1;
+}
+
+.secundario {
+    font: normal 1.5em 'emilys candy', arial, 'sans serif';
+    color: #b151f0;
+    
+}
+
+h1 {
+    font: normal 1.5em 'emilys candy', arial, 'sans serif';
+    color:rgba(111, 51, 241, 0.815);
+    
+}
+
+h2 {
+    font: italic 400 1.2em 'Lobster Two';
+    text-indent: 40px;
+    text-decoration: underline;
+}
+
+.basico {
+    color: #01591e;
+}
+
+.intermediario {
+    color: #433401;
+}
+
+.avançado {
+    color: #7f0202;
+}
