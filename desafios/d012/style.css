@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    width: 500px;
+    margin: auto;
+
+
+}
+header {
+    height: 150px;
+    background-color: black;
+
+}
+header > h1 {
+    color: white;
+    font: normal bold 3em arial, helvetica, 'sans serif';
+    text-align: center;
+    padding-top: 30px;
+    
+}
+header > p {
+    color: white;
+    font: normal normal 1em arial, helvetica, 'sans serif';
+    text-align: center;
+}
+header  a {
+    color: white;
+    text-decoration: none;
+    font: normal bolder 1em arial, helvetica, 'sans serif';
+
+}
+
