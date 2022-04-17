@@ -7,14 +7,14 @@
     <title>docunento</title>
     <style>
         body {
-            background-color: black;
-            background-image: url(imagens/wallpaper002.jpg);
+            background: black url(imagens/wallpaper002.jpg) top center no-repeat  fixed;
+            background-size: cover;
+           
+            /* background color > image > position > repeat > [size](não funciona) > attachment*/
         }
         main {
             background-color: white;
-            background-size: cover;
-           
-            width: 400px;
+            max-width: 320px;
             margin: auto;
             padding: 5px;
             border-radius: 10px;
@@ -28,6 +28,7 @@
         main p {
             text-align: justify;
             text-indent: 20px;
+            line-height: 1.2em;
         }
     </style>
 </head>
