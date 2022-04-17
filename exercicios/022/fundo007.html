@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posicionamento vertical</title>
+    <style>
+        #container {
+            position: relative;
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+            background-color: blueviolet;
+            height: 500px;
+            
+        }
+        #conteudo {
+            position: absolute;
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+            background-color: yellow;
+            height: 200px;
+            width: 200px;
+            left: 50%;
+            top: 25%;
+            transform: translate(-50%, -50%);
+        }
+        #fig {
+            position: absolute;
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
+            background-color: green;
+            height: 50px;
+            width: 50px;
+            left: 50%;
+            top: 75%;
+            transform: translate(-50%, -50%);
+
+        }
+        h1.marca {
+            display:inline-block;
+            margin: 30px;
+          
+            font-weight: bolder;
+            font-size: 1em;
+            background-color: white;
+        }
+
+    </style>
+</head>
+<body>
+    <section id="container">
+        <h1 class="marca">section</h1> 
+    
+        <article id="conteudo">
+            <h1 class="marca">article</h1> 
+                 <aside id="fig">
+            <h1 class="marca">aside</h1>
+         </aside>
+        </article>
+    </section>
+</body>
+</html>
