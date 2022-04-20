@@ -1,2 +1,96 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+:root {
+    --fonte-principal:'Orelega One', 'sans serif';
+    --fonte-destaque:'Courgette', serif;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    min-height: 100vh;
+    background-color:white;
+}
+
+header {
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: auto;
+}
+header h1 {
+    font-variant: small-caps;
+    font-size: 3em;
+    
+}
+header a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+header a:hover {
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+main {
+    background-color: white;
+    
+}
+
+section {
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    line-height: 1.5em;
+    padding-left: 20px;
+    font-size: 1.2em;
+   
+}
+section p {
+    padding:20px;
+}
+.s{
+    background-color: darkslategray;
+    font-family: var(--fonte-principal);
+}
+.i {
+    background-color: aliceblue;
+    font-family: var(--fonte-destaque);
+}
+.i > p {
+    background-color: rgba(0, 0, 0, 0.267);
+    width:300px;
+}
+section#i1 {
+background-image: url(imagens/flor.jpg);
+}
+section#i2 {
+
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+footer > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+footer > a:hover {
+    background-color: white;
+    color: black;
+
+}
