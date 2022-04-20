@@ -58,21 +58,33 @@ section p {
     padding:20px;
 }
 .s{
-    background-color: darkslategray;
+   
+    background-color: white;
     font-family: var(--fonte-principal);
 }
 .i {
+    box-shadow: inset 4px 4px 8px rgba(0, 0, 0, 0.420);
     background-color: aliceblue;
     font-family: var(--fonte-destaque);
+    background-size: cover;
+    background-attachment: fixed;
 }
 .i > p {
-    background-color: rgba(0, 0, 0, 0.267);
+    background-color: rgba(0, 0, 0, 0.500);
+    color: white;
+    text-shadow:  1px 1px 0px rgba(0, 0, 0, 0.500);
     width:300px;
 }
 section#i1 {
-background-image: url(imagens/flor.jpg);
+   
+background-image: url(../imagens/flor.jpg);
+       background-position: right center;
+
 }
 section#i2 {
+   
+    background-image: url(../imagens/escrita.jpg);
+    background-position: right center;
 
 }
 
